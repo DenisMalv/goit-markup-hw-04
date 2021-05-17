@@ -313,8 +313,20 @@ body {
   margin-left: 30px;
 } */
 .prefs-bg {
-  background-image: url(../images/iconsprite.svg#icon-antenna);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  background-color: var(--button-bcgr-color);
 }
+/* .prefs-bg .icon {
+  width: 70px;
+  height: 70px;
+} */
 
 .prefs-item-h {
   font-size: 14px;
@@ -443,7 +455,7 @@ body {
 }
 
 .team-description {
-  padding: 30px;
+  padding: 30px 32px;
 }
 .team-item-h {
   font-weight: 500;
@@ -465,8 +477,38 @@ body {
   color: var(--text-color-standart);
 
   display: block;
+  margin-bottom: 16px;
 }
 
+.social-list {
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.social-list li {
+  border-radius: 50%;
+}
+
+.social-list li:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list li:hover,
+.social-list li:focus {
+  background-color: var(--button-active-bcgr-color);
+}
+.icon-social {
+  display: block;
+  font-size: 0;
+  fill: #afb1b8;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.icon-social:hover,
+.icon-social:focus {
+  fill: var(--text-color-white);
+}
 /* <--------------------footer-------------------> */
 .footer {
   background-color: var(--color-footer-backgr);
@@ -475,7 +517,6 @@ body {
   padding-bottom: 60px;
 }
 .footer-adress {
-  display: inline-block;
   max-width: 240px;
 }
 .adress {
@@ -509,6 +550,26 @@ body {
   color: var(--text-color-accent);
 }
 
+.footer-follow {
+  margin-top: 12px;
+  margin-left: 73px;
+}
+
+.footer-follow h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--text-color-white);
+
+  margin-bottom: 20px;
+}
+
+.footer-follow .list {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 /* <==========  page Portfolio "different styles" ========> */
 
 /* <---------portfolio buttons --------> */
