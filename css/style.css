@@ -294,11 +294,13 @@ body {
 /* ========= Вариант расположения элементов №2 ========== */
 .prefs {
 }
+
 .container .prefs {
   padding-bottom: 0;
   margin-top: -30px;
   margin-left: -30px;
 }
+
 .prefs-item {
   /* width: 270px; */
   width: calc((100% - 120px) / 4);
@@ -310,6 +312,9 @@ body {
 .prefs-item + .prefs-item {
   margin-left: 30px;
 } */
+.prefs-bg {
+  background-image: url(../images/iconsprite.svg#icon-antenna);
+}
 
 .prefs-item-h {
   font-size: 14px;
