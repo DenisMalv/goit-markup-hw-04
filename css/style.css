@@ -212,16 +212,12 @@ body {
 
 /* ========================== icons  ================================== */
 .mail {
-  width: 16px;
-  height: 12px;
   display: inline-block;
   margin-right: 10px;
   fill: currentcolor;
 }
 
 .smartphone {
-  width: 10px;
-  height: 16px;
   display: inline-block;
   margin-right: 10px;
   fill: currentColor;
@@ -493,22 +489,76 @@ body {
 }
 .social-list li:hover,
 .social-list li:focus {
-  background-color: var(--button-active-bcgr-color);
 }
 .icon-social {
   display: block;
-  font-size: 0;
-  fill: #afb1b8;
+  border-radius: 50%;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-right: 12px;
   padding-left: 12px;
+
+  font-size: 0;
+  fill: #afb1b8;
+  background-color: transparent;
 }
 
 .icon-social:hover,
 .icon-social:focus {
+  background-color: var(--button-active-bcgr-color);
   fill: var(--text-color-white);
 }
+
+/* <------------------------ Clients ------------------------------->*/
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 91px;
+}
+.clients-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-black);
+
+  margin-bottom: 50px;
+}
+.section-clients .flex {
+  justify-content: space-between;
+}
+.logo-clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: calc((100% - 150px) / 6);
+  height: 92px;
+}
+.logo-clients:hover,
+.logo-clients:focus {
+  border-color: var(--button-active-bcgr-color);
+}
+
+.icon-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  fill: #afb1b8;
+}
+.icon-clients:hover,
+.icon-clients:focus {
+  border-color: var(--button-active-bcgr-color);
+  fill: var(--text-color-accent);
+}
+
 /* <--------------------footer-------------------> */
 .footer {
   background-color: var(--color-footer-backgr);
@@ -651,7 +701,8 @@ body {
   margin-left: 30px;
 }
 
-.portf-item:hover {
+.portf-item:hover,
+.portf-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
