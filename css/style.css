@@ -146,10 +146,10 @@ body {
 .logo-web {
   color: var(--text-color-accent);
 }
-.nav {
+/* .nav {
 }
 .nav-item {
-}
+} */
 .nav-item + .nav-item {
   margin-left: 50px;
 }
@@ -287,8 +287,8 @@ body {
 } */
 
 /* ========= Вариант расположения элементов №2 ========== */
-.prefs {
-}
+/* .prefs {
+} */
 
 .container .prefs {
   padding-bottom: 0;
@@ -334,13 +334,13 @@ body {
   margin-bottom: 10px;
 }
 
-.prefs-item-p {
-  /* this style's in our body */
-}
+/* .prefs-item-p {
+   this style's in our body 
+} */
 
 /* <------------------- what we do ------------------> */
-.what-wedo {
-}
+/* .what-wedo {
+} */
 
 .wedo-h {
   font-weight: 700;
@@ -447,8 +447,9 @@ body {
   margin-bottom: 0;
 }
 */
-.team-item-i {
-}
+
+/* .team-item-i {
+} */
 
 .team-description {
   padding: 30px 32px;
@@ -487,9 +488,9 @@ body {
 .social-list li:not(:last-child) {
   margin-right: 10px;
 }
-.social-list li:hover,
+/* .social-list li:hover,
 .social-list li:focus {
-}
+} */
 .icon-social {
   display: block;
   border-radius: 50%;
@@ -569,8 +570,8 @@ body {
 .footer-adress {
   max-width: 240px;
 }
-.adress {
-}
+/* .adress {
+} */
 .footer-adress-item {
   display: inline-block;
   margin-bottom: 9px;
@@ -634,8 +635,8 @@ body {
   margin-top: 8px;
   margin-left: 8px;
 }
-.button {
-}
+/* .button {
+} */
 
 /* ========== Вариант расположения элементов №2 ========== 
 .buttons {
@@ -683,16 +684,19 @@ body {
 }
 
 /* <-----------portfolio card list-----------> */
-.portfolio {
-}
+
+/* .portfolio {
+} */
+
 .portf {
   flex-wrap: wrap;
   align-items: flex-start;
   margin-top: -30px;
   margin-left: -30px;
 }
-.portf-list {
-}
+
+/* .portf-list {
+} */
 
 .portf-item {
   display: block;
@@ -724,8 +728,9 @@ body {
   margin-bottom: 0px;
 } */
 
-.portf-img {
-}
+/* .portf-img {
+} */
+
 .card-title {
   padding-top: 20px;
   padding-bottom: 20px;
