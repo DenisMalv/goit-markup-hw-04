@@ -189,7 +189,6 @@ body {
   margin-left: auto;
 }
 .cont {
-  display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -334,6 +333,7 @@ body {
 
   margin-bottom: 10px;
 }
+
 .prefs-item-p {
   /* this style's in our body */
 }
